@@ -1,11 +1,11 @@
-CCL
+RVC
 ===
 
-The CCL (Common Components Library) is a collection of reusable, project independant logic blocks.
-All of these compunents are coded in synthesizable Verilog. 
+The RVC (Reusable Verilog Components) is a collection of reusable, project independant logic blocks.
+All of these components are coded in synthesizable Verilog. 
 
 Please refer to the manual for further information:
-https://github.com/hotwolf/CCL/blob/master/doc/CCL_manual.pdf
+https://github.com/hotwolf/RVC/blob/master/doc/RVC_manual.pdf
 
 Directories:
 ============
@@ -36,11 +36,11 @@ Directories:
    |
    +-run                - Build directory
 
-The CCL soft IP library is distributed in the hope that it will be
+The RVC soft IP library is distributed in the hope that it will be
 useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with the CCL soft IP. If not, see
+along with the RVC soft IP. If not, see
 <http://www.gnu.org/licenses/>.

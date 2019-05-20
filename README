@@ -1,0 +1,46 @@
+CCL
+===
+
+The CCL (Common Components Library) is a collection of reusable, project independant logic blocks.
+All of these compunents are coded in synthesizable Verilog. 
+
+Please refer to the manual for further information:
+https://github.com/hotwolf/CCL/blob/master/doc/CCL_manual.pdf
+
+Directories:
+============
+|
++-rtl           
+|  |
+|  +-verilog            - Verilog source code
+|
++-bench           
+|  |
+|  +-verilog            - Testbenches and verification IP
+|
++-tools                 - Tool configuration and support files
+|  |
+|  +-gtkwave            - GTKWave setup
+|  |  |
+|  |  +-src             - Scripts to generate .stems and .gtkw files
+|  |
+|  +-SymbiYosis         - SymbiYosis setup
+|     |
+|     +-src             - .sby files
+|     |
+|     +-run             - Temporary run directories
+|
++-doc                   - User manual 
+   |
+   +-src                - LaTex source files
+   |
+   +-run                - Build directory
+
+The CCL soft IP library is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with the CCL soft IP. If not, see
+<http://www.gnu.org/licenses/>.
